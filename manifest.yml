@@ -1,0 +1,13 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: timeout-api
+  host: timeout-api
+  disk_quota: 1024M
+  services:
+  - PkTwilioConv-cloudantNoSQLDB
+  - Twilio-NoteToSelf
+  - platform-cloudantNoSQLDB
+  - timeout-api-cloudantNoSQLDB
