@@ -41,7 +41,8 @@ var settings = module.exports = {
 
     // Move the admin UI
     httpAdminRoot: '/red',
-	httpNodeCors: {
+    
+    httpNodeCors: {
         origin: "*",
         methods: "GET,PUT,POST,DELETE"
     },
